@@ -6,7 +6,8 @@
 
 - [GitHub](https://github.com/exequtic)
 
-___
+
+---
 
 
 ### **Skills**
@@ -16,14 +17,16 @@ ___
 - Git, GitHub
 - IntelliJ IDEA, VSCode
 
-___
+
+---
 
 
 ### **About me**
 
 I studied php on my own and I know it at a basic level. I would like to learn JavaScript and learn more about front-end development.
 
-___
+
+---
 
 
 ### **Code examples**
@@ -39,7 +42,8 @@ function descendingOrder(int $n): int {
   return implode($n);
 }
 ```
-___
+
+---
 
 ### **Languages**
 
