@@ -1,0 +1,147 @@
+:root {
+    --d1: #1d2021;   
+    --d2: #282828;
+    --d3: #3c3836;
+    --l1: #fbf1c7;
+    --l2: #a89984;
+    --ln: #d79921;
+}
+
+body {
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto;
+    color: var(--l1);
+    font-family: Ubuntu, serif;
+    background-color: var(--d1);
+}
+
+header {
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none
+}
+
+.menu a {
+    padding: 5px 10px;
+    background-color: var(--d1);
+    border: 1px solid var(--l2);
+    border-radius: 16px;
+}
+
+nav {
+    margin: 50px 0 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 3px;
+    display: inline;
+}
+
+.card {
+    margin: 20px 25px;
+    padding: 20px;
+    background-color: var(--d2);
+    border: 1px solid var(--l2);
+    border-radius: 16px;
+    filter: drop-shadow(4px 4px 5px #000);
+}
+
+.card-footer {
+    padding: 0;
+}
+
+.photo {
+    width: 200px;
+    margin: 10px auto 15px;
+    border: 2px dotted var(--l2);
+    border-radius: 50%;
+    filter: grayscale(60%) sepia(60%) drop-shadow(20px 10px 10px var(--d1));
+    user-select: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    display:inline-block;
+    vertical-align: top;
+    filter: brightness(1.5) contrast(160%);
+    user-select: none;
+}
+
+.icon-small {
+    width: 14px;
+    margin-right: 3px;
+    vertical-align: bottom;
+}
+
+.logo {
+    width: 72px;
+    user-select: none;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 0.9rem;
+    position: relative;
+    left: -8px;
+}
+
+a:link {
+    color:var(--ln);
+    text-decoration: none;
+}
+
+a:visited {
+    color:var(--ln);
+}
+
+a:hover {
+    color:#d65d0e;
+}
+
+section:not(:nth-child(n+6)) {
+    margin: 0 0 50px;
+}
+
+code {
+    background: var(--d3);
+    border-radius: 16px;
+    padding: 0 10px;
+}
+
+.screenshots {
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: var(--d3);
+    border-radius: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    margin: 15px;
+    border: 1px solid var(--d1);
+    filter: drop-shadow(5px 5px 5px var(--d2));
+}
+
+.box-2 {
+    margin: auto;
+}
